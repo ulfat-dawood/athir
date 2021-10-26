@@ -1,0 +1,38 @@
+
+//html/body tag: 
+const html= document.querySelector('html'); 
+const body= document.querySelector('body'); 
+
+window.onload = function() {
+    if(localStorage.getItem('lang') == null){
+        localStorage.setItem('lang', 'ar');
+    }
+    switchLang(localStorage.getItem('lang'));
+};
+
+//reload onclick: 
+document.querySelectorAll("[data-reload]").forEach(btn =>{
+    btn.addEventListener('click' , _=>{
+        var lang = btn.dataset.reload
+        localStorage.setItem('lang', lang); 
+        switchLang(lang);
+        location.reload(true)
+    }) 
+})
+
+//swtich language 
+const switchLang = (lang)=>{
+    if(lang == 'ar'){
+        html.dir = 'rtl'; html.lang = 'ar';
+        body.style.fontFamily = "'Noto Sans Arabic', sans-serif"
+        langObj = language.ar; 
+    }else{
+        html.dir = 'ltr'; html.lang = 'en';
+        body.style.fontFamily = "'Montserrat', sans-serif";
+        langObj = language.en; 
+    }
+    document.querySelectorAll('[data-cnt]').forEach(item =>{
+        var content = item.dataset.cnt; 
+        item.innerHTML = langObj[content];
+    })
+}

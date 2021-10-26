@@ -1,0 +1,95 @@
+const language = {
+    en: {
+        nav_about:"about us",
+        nav_services:"services",
+        nav_achievements: "achievements",
+        nav_partners:"partners",
+        //BANNER:
+        bnr_title: "Your digital journey begins here!",
+        bnr_subtitle:"Integrated digital solutions empowering enterprises to transform their businesses into a new digital era.",
+        //ABOUT: 
+        abt_title: "Who are we?",
+        abt_who: "who" ,
+        abt_who_txt: "Athir is a leading Saudi firm, innovating digital solutions",
+        abt_what: "what",
+        abt_what_txt: "We provide smart solutions that enable enterprises to streamline operational processes and manage business data more efficiently",
+        abt_why: "why",
+        abt_why_txt: "Creating safer and flexible digital workplaces. Allowing immediate access to reliable data. Making smarter choices about what to do in the future.",
+        abt_how: "how", 
+        abt_how_txt: "Employing digital technologies and business intelligence.", 
+        abt_for: "for whom?", 
+        abt_for_txt: "Government sector: primary support for health care. The private sector: to support jobs and small businesses in all fields.", 
+        //US:
+        us_vision:"Our Vision",
+        us_vision_txt:"Create digital value for enterprises by streamlining their processes and data.",
+        us_mission: "Our Mission",
+        us_mission_txt: "Athir strives to accelerate business transformation by leveraging the power of artificial intelligence and cloud services, while following international standards and strict cybersecurity measures.", 
+        us_values: "Our Value",
+        us_values_txt: "Adopting localized, standardized, and centralized processes <br/> Transforming businesses into digital workplaces <br/> High-level of corporate governance <br/> Integrated solutions for seamless processes and experience <br/> Risk mitigation by maximizing productivity and minimizing usage of enterprise resources<br/> Risk mitigation to maximize productivity and minimize cost of enterprise resources <br/>Reduced cost of enterprise resources and risk <br/>",
+        //SERVICES:
+        srv_title:"Our Services",
+        srv_care: "Nexen Care is  an innovative healthcare platform that digitalizes health records and services, allowing healthcare organizations and stakeholders to work collaboratively through an integrated system on PCs and smart applications.", 
+        srv_erp: "Nexen ERP is an integrated system that allows organizations to automate their entire functions and manage their daily business processes such as accounting, human resources, materials and warehouse management.",
+        srv_desk: "Nexen Desk: A smart solution to establish smart communication channel with potential partners, clients and stakeholders in order to provide easy channel to onboard to new entities, trace the progress, excellence center to manage issues and enhance customer experience.",
+        srv_rcm: "Nexen RCM is a smart solution that digitizes the medical insurance cycle by capturing clinical and financial transactions in a centralized platform, allowing to streamline the communication between medical insurance stakeholders.",
+        //BREAK:
+        brk_txt: "Athir excels in providing ready-to-use digital solutions",
+        //ACHIEVMENTS: 
+        achv_title: "Achievements",
+        achv_projects:"projects",
+        achv_projects_no: "28",
+        achv_clients: "clients",
+        achv_clients_no: "14",
+        achv_users: "users",
+        achv_users_no: "4K",
+        achv_transactions: "transactions",
+        achv_transactions_no: "5M",
+
+    },
+    ar: {
+        nav_about:"نحن",
+        nav_services:"خدماتنا",
+        nav_achievements: "انجازاتنا",
+        nav_partners:"شركاءنا",
+        //BANNER:
+        bnr_title: "بوابتك للتحول الرقمي",
+        bnr_subtitle:"حلول رقمية متكاملة لتمكين المنشآت بتحويل أعمالها إلى عهد رقمي جديد",
+        //ABOUT: 
+        abt_title: "من نحن",
+        abt_who: "من" ,
+        abt_who_txt: "نحن شركة أثير ، شركة سعودية رائدة لإبتكار حلول رقمية",
+        abt_what: "ماذا؟",
+        abt_what_txt: "نقدم الحلول الذكية لتمكين المنشآت في تقنين إجراءات العمل وتنظيم البيانات",
+        abt_why: "لماذا؟",
+        abt_why_txt: "- لخلق بيئة عمل ناجحة وآمنة. - الحصول الفوري على المعلومات - اتخاذ قرارات أكثر ذكاء",
+        abt_how: "كيف", 
+        abt_how_txt: " بتوظيف التقنيات الرقمية وذكاء الأعمال.", 
+        abt_for: "لمن؟", 
+        abt_for_txt:"القطاع الحكومي: لدعم التحول الذكي للرعاية الصحية الأولية القطاع الخاص: لدعم المنشآت المتوسطة والصغيرة في كافة المجالات .",
+        //US:
+        us_vision:"رؤيتنا",
+        us_vision_txt:"ابتكار حلول رقمية لتقنين إجراءات العمل وتنظيم البيانات.",
+        us_mission: "مهمتنا",
+        us_mission_txt: "توظيف التقنيات الحديثة والذكاء الاصطناعي لتطوير حلول متكاملة مع إتباع المعايير النموذجية لتحويل الأعمال إلى بيئة رقمية مستدامه .", 
+        us_values: "قيمنا",
+        us_values_txt: "معايير: توحيد إجراءات العمل بما يتواكب مع المتطلبات المحلية والدولية <br/> تحول: تطوير نموذج عمل رقمي بتوظيف التقنيات الحديثة <br/> حوكمة: تقنين الإجراءات لخلق بيئة عمل مستدامه <br/>  تكامل: تقديم تجربة سلسة لإتمام إجراءات العمل بذكاء <br/>  كفاءة: رفع الإنتجاية مع تقليل استهلاك الموارد المؤسساتية والحد من المخاطر",
+        //SERVICES:
+        srv_title:"خدماتنا",
+        srv_care: "نظام إلكتروني تفاعلي لإدارة الخدمات وميكنة الإجراءات الصحية حيث يحتوي النظام على ملف صحي موحد مع وحدات طبية وإدارية مختلفة مع ميزة التكامل مع كافة الخدمات والجهات ذات علاقة .", 
+        srv_erp: "ظام ذكي لحوكمة موارد المنشآت بتطبيق نماذج عمل معتمدة وتقنين الإجراء لإدارة الموارد المالية والبشرية والمواد .",
+        srv_desk: "حل ذكي لإنشاء قناة اتصال ذكية مع الشركاء والعملاء وأصحاب المصلحة المحتملين من أجل توفير قناة سهلة للانضمام إلى الكيانات الجديدة وتتبع التقدم ومركز التميز لإدارة المشكلات وتعزيز تجربة العملاء.",
+        srv_rcm: "هو حل ذكي يقوم برقمنة دورة التأمين الطبي من خلال تسجيل المعاملات السريرية والمالية في منصة مركزية ، مما يسمح بتبسيط التواصل بين أصحاب المصلحة في التأمين الطبي.",
+        //BREAK:
+        brk_txt: "تتميز اثير في تقديم حلول رقمية جاهزة للاستخدام",
+        //ACHIEVMENTS: 
+        achv_title: "الإنجازات",
+        achv_projects:"مشروع",
+        achv_projects_no: "28",
+        achv_clients: "عميل",
+        achv_clients_no: "14",
+        achv_users: "مستخدم",
+        achv_users_no: "4K",
+        achv_transactions: "عملية",
+        achv_transactions_no: "5M",
+    }
+}
