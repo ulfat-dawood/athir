@@ -1,0 +1,22 @@
+#header{
+    display: flex;
+    height: 30px;
+}
+
+#header .logo{
+    display: flex;
+    align-items: center;
+}
+#header .logo img{
+    height: 100%;
+}
+#header nav{
+    display: flex;
+
+}
+#header nav ul{
+    display: flex;
+}
+#header .lang{
+    display: flex;
+}
