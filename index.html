@@ -13,16 +13,17 @@
 <!-- STYLES -->
 <link rel="stylesheet" href="./style/style.css">
 <title>Document</title>
+<!-- FEATHER ICONS  -->
+<script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
 
-    <header id="header">
+    <header id="header"  class="tx-body">
         <div class="logo">
-            <img src="./asset/img/logo-small.png" alt="">
-            <img src="./asset/img/logo-en.png" alt="">
+            <img src="./asset/img/nav-logo.png" width="100">
         </div>
 
-        <nav  class="tx-body">
+        <nav >
             <ul>
                 <li><a data-cnt="nav_about" href=""></a></li>
                 <li><a href="" data-cnt="nav_services"></a></li>
@@ -32,9 +33,9 @@
         </nav>
 
         <ul class="lang">
-            <li><button  data-reload="en">En</button></li>
-            <li><button  data-reload="ar">Ar</button></li>
-            <li><a  >contact</a></li>
+            <li><div  data-reload="en">En <i data-feather="globe"></i></div></li>
+            <li><div  data-reload="ar">ع <i data-feather="globe"></i></div></li>
+            <li><a style="display:flex"> <i style="align-self: center;" data-feather="mail"></i></a></li>
         </ul>
         
 
@@ -42,44 +43,50 @@
 
     <section id="banner">
 
-        <h1 data-cnt="bnr_title"></h1>
-        <h5 data-cnt="bnr_subtitle"></h5>
-
-    </section>
-
-    <section id="about">
-        <h2 data-cnt="abt_title"></h2>
-
-        <div class="about-cards">
-            <div class="about-card">
-                <h5 data-cnt="abt_who"></h5>
-                <p data-cnt="abt_who_txt"></p>
-            </div>
-
-            <div class="about-card">
-                <h5 data-cnt="abt_what"></h5>
-                <p data-cnt="abt_what_txt"></p>
-            </div>
-
-            <div class="about-card">
-                <h5 data-cnt="abt_why"></h5>
-                <p data-cnt="abt_why_txt"></p>
-            </div>
-
-            <div class="about-card">
-                <h5 data-cnt="abt_how"></h5>
-                <p data-cnt="abt_how_txt"></p>
-            </div>
-            
-            <div class="about-card">
-                <h5 data-cnt="abt_for"></h5>
-                <p data-cnt="abt_for_txt"></p>
+        <div class="container">
+            <div class="main">
+                <h1 data-cnt="bnr_title"></h1>
+                <h5 data-cnt="bnr_subtitle"></h5>
             </div>
         </div>
 
     </section>
 
-    <section id="us">
+    <section id="about">
+        <div class="container">
+            <h2 data-cnt="abt_title"></h2>
+
+            <div class="about-cards">
+                <div class="about-card">
+                    <h5 data-cnt="abt_who"></h5>
+                    <p data-cnt="abt_who_txt"></p>
+                </div>
+
+                <div class="about-card">
+                    <h5 data-cnt="abt_what"></h5>
+                    <p data-cnt="abt_what_txt"></p>
+                </div>
+
+                <div class="about-card">
+                    <h5 data-cnt="abt_why"></h5>
+                    <p data-cnt="abt_why_txt"></p>
+                </div>
+
+                <div class="about-card">
+                    <h5 data-cnt="abt_how"></h5>
+                    <p data-cnt="abt_how_txt"></p>
+                </div>
+                
+                <div class="about-card">
+                    <h5 data-cnt="abt_for"></h5>
+                    <p data-cnt="abt_for_txt"></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="us" class="container">
         <div class="us-cards">
             <div class="us-card">
                 <h5 data-cnt="us_vision"></h5>
@@ -98,7 +105,7 @@
         </div>
     </section>
 
-    <section id="services">
+    <section id="services" class="container">
         <h2 data-cnt="srv_title"></h2>
 
         <div class="services-cards">
@@ -129,11 +136,11 @@
         </div>
     </section>
 
-    <section id="break">
+    <section id="break" class="container">
         <p data-cnt="brk_txt"></p>
     </section>
 
-    <section id="achievments">
+    <section id="achievments" class="container">
 
         <h2 data-cnt="achv_title"></h2>
         <div class="achv-cards">
@@ -164,5 +171,8 @@
 
  <script src="./script/content.js"></script>
  <script src="./script/translate.js"></script>
+ <script>
+    feather.replace()
+  </script>
 </body>
 </html>

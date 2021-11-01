@@ -1,0 +1,59 @@
+/* ////////// HEADER ////////// */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    background: #FAE9D2;
+}
+
+#header .logo img{
+    width: 150px;
+}
+#header nav{
+    display: flex;
+}
+
+#header nav ul{
+    display: flex;
+}
+
+#header nav li{
+    margin: 0 .5rem;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#header .lang{
+    display: flex;
+    align-items: center;
+}
+
+#header [data-reload]{
+    margin: 0 .5rem;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* ////////// BANNER ////////// */
+
+#banner{
+    height: 90vh;
+    background-color: #FAE9D2;
+    background-image: url(../asset/img/landing-bg.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position-x: 300px;
+    background-position-y: -150px;
+}
+
+
+/* ////////// ABOUT ////////// */
+
+
+/* ////////// بالعربي ////////// */
+ 
+html[dir="rtl"] #banner {
+    background-position-x: -300px;
+}

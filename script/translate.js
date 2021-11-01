@@ -16,7 +16,7 @@ document.querySelectorAll("[data-reload]").forEach(btn =>{
         var lang = btn.dataset.reload
         localStorage.setItem('lang', lang); 
         switchLang(lang);
-        location.reload(true)
+        //location.reload(true)
     }) 
 })
 
@@ -26,10 +26,16 @@ const switchLang = (lang)=>{
         html.dir = 'rtl'; html.lang = 'ar';
         body.style.fontFamily = "'Noto Sans Arabic', sans-serif"
         langObj = language.ar; 
+        //hide button: 
+        document.querySelector("[data-reload='ar']").style.display="none";
+        document.querySelector("[data-reload='en']").style.display="flex";
     }else{
         html.dir = 'ltr'; html.lang = 'en';
         body.style.fontFamily = "'Montserrat', sans-serif";
         langObj = language.en; 
+        //hide button: 
+        document.querySelector("[data-reload='en']").style.display="none";
+        document.querySelector("[data-reload='ar']").style.display="flex";
     }
     document.querySelectorAll('[data-cnt]').forEach(item =>{
         var content = item.dataset.cnt; 

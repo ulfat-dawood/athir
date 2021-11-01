@@ -1,5 +1,5 @@
 @import "./normalize.css"; /*always overriden*/
-@import "./nav.css";
+@import "./main.css";
 @import "./banner.css" ;
 
 /* never overriden  */
