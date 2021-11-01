@@ -5,6 +5,13 @@
     justify-content: space-between;
     padding: .5rem 2rem;
     background: #FAE9D2;
+    transition: all .5s linear;
+    position: sticky;
+    top:0;
+}
+#header.sticky{
+  background: hsla(35, 80%, 90%, 0.95);
+  box-shadow: 0 0 10px #00000016;
 }
 
 #header .logo img{
@@ -35,11 +42,15 @@
     align-items: center;
     cursor: pointer;
 }
+#header [data-reload] span{
+    margin: 0 .2rem;
+    font-weight: 600;
+}
 
 /* ////////// BANNER ////////// */
 
 #banner{
-    height: 90vh;
+    height: 570px;
     background-color: #FAE9D2;
     background-image: url(../asset/img/landing-bg.png);
     background-repeat: no-repeat;
@@ -47,13 +58,37 @@
     background-position-x: 300px;
     background-position-y: -150px;
 }
+#banner .main{
+    width: 50%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#banner .title{
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+#banner .subtitle{
+
+}
 
 
 /* ////////// ABOUT ////////// */
+#about{
+    background: rgb(250,233,208);
+    background: linear-gradient( rgba(250,233,208,1) 0%, rgba(252,240,223,1) 10%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+}
+
 
 
 /* ////////// بالعربي ////////// */
  
 html[dir="rtl"] #banner {
     background-position-x: -300px;
+}
+
+html[dir="rtl"] #banner .title{
+    line-height: 1.5;
 }

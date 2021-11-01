@@ -25,16 +25,16 @@
 
         <nav >
             <ul>
-                <li><a data-cnt="nav_about" href=""></a></li>
-                <li><a href="" data-cnt="nav_services"></a></li>
-                <li><a href="" data-cnt="nav_achievements"></a></li>
+                <li><a data-cnt="nav_about" href="#about"></a></li>
+                <li><a href="#services" data-cnt="nav_services"></a></li>
+                <li><a href="#achievments" data-cnt="nav_achievements"></a></li>
                 <li><a href="" data-cnt="nav_partners"></a></li>
             </ul>
         </nav>
 
         <ul class="lang">
-            <li><div  data-reload="en">En <i data-feather="globe"></i></div></li>
-            <li><div  data-reload="ar">ع <i data-feather="globe"></i></div></li>
+            <li><div  data-reload="en" style="font-family:'Montserrat', sans-serif"><span>English </span><i data-feather="globe"></i></div></li>
+            <li><div  data-reload="ar" style="font-family:'Noto Sans Arabic', sans-serif"><span>عربي </span><i data-feather="globe"></i></div></li>
             <li><a style="display:flex"> <i style="align-self: center;" data-feather="mail"></i></a></li>
         </ul>
         
@@ -45,8 +45,8 @@
 
         <div class="container">
             <div class="main">
-                <h1 data-cnt="bnr_title"></h1>
-                <h5 data-cnt="bnr_subtitle"></h5>
+                <h1 data-cnt="bnr_title" class="title"></h1>
+                <h5 data-cnt="bnr_subtitle" class="subtitle"></h5>
             </div>
         </div>
 
@@ -168,7 +168,7 @@
         </div>
     </section>
 
-
+<script src="./script/sticky-nav.js"></script>
  <script src="./script/content.js"></script>
  <script src="./script/translate.js"></script>
  <script>

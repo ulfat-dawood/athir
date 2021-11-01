@@ -20,6 +20,13 @@
 	padding-right: 7vw;
 	padding-left: 7vw;
 }
+body * {
+	color: #0F3951;
+}
+html *{
+	scroll-behavior: smooth;
+	scroll-margin-top: 100px; 
+}
 
 /* TEXT  */
 .tx-lg{ font-size: 32px;}
