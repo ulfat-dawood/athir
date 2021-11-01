@@ -7,6 +7,7 @@ const language = {
         //BANNER:
         bnr_title: "Your digital journey begins here!",
         bnr_subtitle:"Integrated digital solutions empowering enterprises to transform their businesses into a new digital era.",
+        more:"learn more",
         //ABOUT: 
         abt_title: "Who are we?",
         abt_who: "who" ,
@@ -47,13 +48,14 @@ const language = {
 
     },
     ar: {
-        nav_about:"نحن",
-        nav_services:"خدماتنا",
-        nav_achievements: "انجازاتنا",
-        nav_partners:"شركاءنا",
+        nav_about:"نـحن",
+        nav_services:"خـدماتنـا",
+        nav_achievements: "انجازاتنـا",
+        nav_partners:"شركـاءنا",
         //BANNER:
-        bnr_title: "بوابتك للتحول الرقمي",
+        bnr_title: "بـوابـتك للــتحول الرقــمي",
         bnr_subtitle:"حلول رقمية متكاملة لتمكين المنشآت بتحويل أعمالها إلى عهد رقمي جديد",
+        more:"اعرف المزيد",
         //ABOUT: 
         abt_title: "من نحن",
         abt_who: "من" ,
