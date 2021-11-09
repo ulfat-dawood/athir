@@ -1,5 +1,6 @@
 /* ////////// HEADER ////////// */
 #header{
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +12,7 @@
 }
 #header.sticky{
   background: hsla(35, 80%, 90%, 0.95);
-  box-shadow: 0 0 10px #00000016;
+  box-shadow: 0 0 10px 5px #00000016;
 }
 
 #header .logo img{
@@ -89,7 +90,7 @@
 
 }
 
-#banner .more span{
+#banner .more div{
     color: #fff;
 }
 
@@ -153,14 +154,66 @@
     background: linear-gradient( rgba(250,233,208,1) 0%, rgba(252,240,223,1) 10%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
 }
 
+#about .title{
+    color:#E5901F;
 
-
-/* ////////// بالعربي ////////// */
- 
-html[dir="rtl"] #banner {
-    background-position-x: -300px;
+}
+#about .about-cards{
+    width:95%; 
+    margin: auto;
+    margin-top: 50px; 
 }
 
-html[dir="rtl"] #banner .title{
-    line-height: 1.5;
+#about .about-card{
+    display: flex;
+    align-items: center;
+
 }
+
+#about .about-cards h5{
+    border-right: 1px solid #0E3951;
+    flex-shrink: 0;
+    width:140px;
+    text-align: right;
+    padding: 25px 0;
+    padding-right: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+#about .about-cards h5::after{
+    position: absolute;
+    content: "";
+    background: #0E3951;
+    width: 10px; height: 10px;
+    border-radius: 20px;
+    right:0; 
+    top: 50%; 
+    transform: translate(50%, -50%);
+}
+
+#about .about-cards p{
+    background: white;
+    padding:.5rem; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0px #00000016;
+}
+
+/* ////////// US ////////// */
+
+
+
+
+/* ////////// BREAK ////////// */
+
+#break{
+    background-color: #0F3951;
+    background: 
+        linear-gradient(0deg, rgba(15, 57, 81, 0.9), rgba(15, 57, 81, 0.9)), 
+        url(../asset/img/bg-break.webp);
+    background-position: center center;
+    height: 600px;
+}
+
+
+

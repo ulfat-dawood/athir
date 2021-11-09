@@ -1,0 +1,28 @@
+/* ////////// BANNER ////////// */
+
+html[dir="rtl"] #banner {
+  background-position-x: -300px;
+}
+
+html[dir="rtl"] #banner .title {
+  line-height: 1.5;
+}
+
+/* ////////// ABOUT ////////// */
+
+html[dir="rtl"] #about .about-cards h5::after {
+
+  right: 100%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+html[dir="rtl"] #about .about-cards h5{
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    margin-left: 20px;
+    text-align: left;
+    border-right: none;
+    border-left: 1px solid #0E3951;
+
+}

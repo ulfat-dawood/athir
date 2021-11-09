@@ -17,8 +17,8 @@
 
 
 .container{
-	padding-right: 7vw;
-	padding-left: 7vw;
+	width:80%; 
+	margin: auto;
 }
 body * {
 	color: #0F3951;
@@ -31,7 +31,7 @@ html *{
 /* TEXT  */
 .tx-lg{ font-size: 32px;}
 .tx-xlg{ font-size: 38px;}
-.tx-xxlg{ font-size: 32px;}
+.tx-xxlg{ font-size: 42px;}
 
 .tx-title{ font-size: 24px;}
 .tx-xtitle{ font-size: 28px;}
