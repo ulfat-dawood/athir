@@ -51,3 +51,8 @@ html[dir="rtl"] #us .us-card{
 html[dir="rtl"] #us .us-values li{
     background-position-x: 102%;
 }
+
+/* ////////// SERVICES ////////// */
+html[dir="rtl"] .services-card .face.face1 .content p{
+    line-height: 1.6;
+}
