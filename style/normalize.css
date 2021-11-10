@@ -24,7 +24,7 @@ body * {
 	color: #0F3951;
 }
 html *{
-	scroll-behavior: smooth;
+	scroll-behavior: smooth !important;
 	scroll-margin-top: 100px; 
 }
 

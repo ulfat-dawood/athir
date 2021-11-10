@@ -1,3 +1,10 @@
+/* ////////// NORMALIZE ////////// */
+html[dir="rtl"] * {
+    line-height: 1.1;
+}
+
+
+
 /* ////////// BANNER ////////// */
 
 html[dir="rtl"] #banner {

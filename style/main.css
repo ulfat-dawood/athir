@@ -12,6 +12,7 @@
 }
 #header.sticky{
   background: hsla(35, 80%, 90%, 0.95);
+  background: rgba(255, 255, 255, 95%);
   box-shadow: 0 0 10px 5px #00000016;
 }
 
@@ -211,7 +212,7 @@
 #break{
     background-color: #0F3951;
     background: 
-        linear-gradient(0deg, rgba(15, 57, 81, 0.9), rgba(15, 57, 81, 0.9)), 
+        linear-gradient(0deg, rgba(15, 57, 81, 0.8), rgba(15, 57, 81, 0.8)), 
         url(../asset/img/bg-break.webp);
     background-position: center center;
     background-attachment: fixed;
@@ -273,7 +274,7 @@
 }
 
 #achievements .achv-card{
-    --dim:170px;
+    --dim:150px;
     display: flex;
     align-items: center;
     flex-direction: column;
