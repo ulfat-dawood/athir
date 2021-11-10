@@ -34,7 +34,20 @@ html[dir="rtl"] #about .about-cards h5{
 
 }
 html[dir="rtl"] #about .about-cards p{
-    border-radius: 10px 0 0 10px ;
+    /* border-radius: 10px 0 0 10px ;
     border-left:none; 
-    border-right:3px solid #E5901Fcc; 
+    border-right:3px solid #E5901Fcc;  */
+}
+
+/* ////////// US ////////// */
+html[dir="rtl"] #us .us-card:first-child{
+    margin-right: 0px;
+    margin-left: 20px;
+}
+html[dir="rtl"] #us .us-card{
+    background-position-x: var(--posX-ar);
+}
+
+html[dir="rtl"] #us .us-values li{
+    background-position-x: 102%;
 }
