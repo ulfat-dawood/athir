@@ -458,8 +458,16 @@
     height: 500px;
     background: #eee;
 }
-#partners div{
+#partners .img-container{
     background: #909090;
+    height: 150px;
+    width: fit-content;
+}
+
+#partners .img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 
