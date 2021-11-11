@@ -288,7 +288,9 @@
     height: 300px;
     margin: 0 auto;
     border-radius: 15px;
-    box-shadow: 0 0 30px  rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px  rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 20px 40px 0 rgba(0,0,0,.2); */
+
 }
 .services-card .face {
     position: absolute;
@@ -323,7 +325,9 @@
     align-items: center;
     transition: 0.5s;
     background-image: linear-gradient(#fff, #fff);
-    background: var(--bg);
+    background-color: var(--bg);
+    background-image: url(../asset/img/circuit-board.svg);
+    background-position-y: 40px ;
     border-radius: 15px;
     /* display: none; */
 
@@ -448,13 +452,15 @@
 }
 
 
-
-
-
+/* ////////// PARTNERS ////////// */
 
 #partners{
     height: 500px;
-    background: #000;
+    background: #eee;
+}
+#partners div{
+    background: #909090;
+    
 }
 
 
