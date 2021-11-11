@@ -50,6 +50,8 @@ const language = {
         achv_users_no: "4K",
         achv_transactions: "transactions",
         achv_transactions_no: "5M",
+        //Partners
+        prt_title:"partners", 
 
     },
     ar: {
@@ -103,5 +105,7 @@ const language = {
         achv_users_no: "4K",
         achv_transactions: "عملية",
         achv_transactions_no: "5M",
+        //Partners
+        prt_title:"شركاء النجاح", 
     }
 }
