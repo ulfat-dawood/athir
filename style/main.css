@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding: .5rem 2rem;
-    background: #FAE9D2;
+    background: #FFF9F1;
     transition: all .5s linear;
     position: sticky;
     top:0;
@@ -53,12 +53,12 @@
 
 #banner{
     height: 570px;
-    background-color: #FAE9D2;
-    background-image: url(../asset/img/landing-bg.png);
+    background-color: #FFF9F1;
+    /* background-image: url(../asset/img/landing-bg.png);
     background-repeat: no-repeat;
     background-size: 95%;
     background-position-x: 300px;
-    background-position-y: -150px;
+    background-position-y: -150px; */
 }
 #banner .main{
     width: 50%;
@@ -94,6 +94,7 @@
 #banner .more div{
     color: #fff;
 }
+
 
 .arrows {
     /* position: relative; */
@@ -147,7 +148,11 @@
         transform: translate(-1.3333333333px, 5.3333333333px) rotate(-45deg);
    }
 }
+/* ////////// BANNER_2 ////////// */
 
+#banner2 {
+    
+}
 
 /* ////////// ABOUT ////////// */
 #about{
@@ -371,8 +376,9 @@
     background-attachment: fixed;
     background-repeat: repeat;
 
-    height: 600px;
-    padding-top: 30px;
+    /* height: 600px; */
+    padding-top: 100px;
+    padding-bottom: 250px;
     z-index: -11;
 }
 #break .container{
@@ -399,6 +405,9 @@
     margin: 20px;
 }
 /* ////////// ACHIEVEMENTS ////////// */
+#achievements{
+    margin-bottom: 100px;
+}
 #achievements .container{
     position: relative;
     margin-top: -200px;
@@ -437,6 +446,7 @@
     width: var(--dim);
     border-radius: 7px;
     box-shadow: 0 0 10px #00000016;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 20%);
     
 }
 #achievements .achv-card img{
@@ -473,7 +483,7 @@
 }
 #partners .img-container{
     /* background: #909090; */
-    height: 150px;
+    height: 100px;
     width: fit-content;
 }
 
@@ -482,16 +492,12 @@
     width: 100%;
     object-fit: contain;
     filter: grayscale(1) ;
-
     -webkit-filter: grayscale(1) ;
-
     -moz-filter: grayscale(1) ;
 }
 #partners .img-container:hover img{
     filter: grayscale(0) ;
-
     -webkit-filter: grayscale(0) ;
-
     -moz-filter: grayscale(0) ;
 }
 

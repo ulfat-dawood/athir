@@ -8,6 +8,7 @@ $(".carousel").owlCarousel({
   slideTransition: "linear",
   autoplayTimeout: 6000,
   autoplaySpeed: 6000,
+  rtl:true,
 //   autoplayHoverPause: true,
   
 //   responsive: {
