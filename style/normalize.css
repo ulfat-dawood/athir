@@ -42,6 +42,3 @@ html *{
 .tx-sm{ font-size:14px;}
 .tx-xsm{ font-size: 12px;}
 
-section:nth-child(even){
-	background: #dbdbdb;
-}
