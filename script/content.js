@@ -5,7 +5,7 @@ const language = {
         nav_achievements: "achievements",
         nav_partners:"partners",
         //BANNER:
-        bnr_title: "Your digital journey begins here!",
+        bnr_title: "<span> Your digital journey </span> <br> begins here!",
         bnr_subtitle:"Integrated digital solutions empowering enterprises to transform their businesses into a new digital era.",
         more:"learn more",
         //ABOUT: 
@@ -60,7 +60,7 @@ const language = {
         nav_achievements: "انجازاتنـا",
         nav_partners:"شركـاءنا",
         //BANNER:
-        bnr_title: "بـوابـتك للــتحول الرقــمي",
+        bnr_title: "<span class='bwbtk'> بـــوابـــتــك </span> <br> للــتـحول الــرقــمـي",
         bnr_subtitle:"حلول رقمية متكاملة لتمكين المنشآت بتحويل أعمالها إلى عهد رقمي جديد",
         more:"اعرف المزيد",
         //ABOUT: 

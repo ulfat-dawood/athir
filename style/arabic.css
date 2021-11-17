@@ -5,7 +5,7 @@ html[dir="rtl"] * {
 
 
 
-/* ////////// BANNER ////////// */
+/* ////////// BANNER-1 ////////// */
 
 html[dir="rtl"] #banner {
   background-position-x: -300px;
@@ -15,6 +15,36 @@ html[dir="rtl"] #banner .title {
   line-height: 1.5;
 }
 
+html[dir="rtl"] #banner{
+    direction: ltr;
+}
+
+html[dir="rtl"] #banner .main{
+     direction: rtl;
+     /* text-align: center; */
+     
+}
+
+
+html[dir="rtl"] #banner .main{
+    /* background-image: linear-gradient(to left, #FFF9F1,#FFF9F100); */
+}
+html[dir="rtl"] #banner .main .title{
+    font-size: 54px;
+    margin-bottom: 10px;
+
+}
+html[dir="rtl"] #banner .main .bwbtk{
+    font-size: 88px;
+}
+/* html[dir="rtl"] #banner .landing-bg{
+    right:25%; 
+} */
+
+/* ////////// BANNER-2 ////////// */
+html[dir="rtl"] #banner2{
+    direction: ltr;
+}
 /* ////////// ABOUT ////////// */
 
 html[dir="rtl"] #about .about-cards h5::after {
