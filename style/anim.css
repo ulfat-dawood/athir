@@ -1,0 +1,9 @@
+#dashy #background{
+    opacity: 0;
+}
+#dashy .bar{
+    stroke-dasharray: 200;
+    stroke-dashoffset:200;
+    /* stroke-dashoffset: 200; */
+    fill:transparent;
+}
