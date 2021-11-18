@@ -64,6 +64,7 @@
     background-position-y: -150px; */
 }
 #banner .main{
+    margin-top: -30px;
     position: relative;
     z-index: 1;
     width: 50%;
@@ -88,7 +89,7 @@
     position: absolute;
 
     /* top:-200px; */
-    top: -55%; 
+    top: -50%; 
     /* transform: translateY(50%); */
     right:-15%; 
     z-index: 0;
