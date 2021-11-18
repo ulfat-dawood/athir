@@ -1,3 +1,4 @@
 window.addEventListener('load', ()=>{
-    setTimeout(_=> window.location.hash = '#banner2',5000)
+    banner();
+    setTimeout(_=> window.location.hash = '#banner2',10000)
 })
