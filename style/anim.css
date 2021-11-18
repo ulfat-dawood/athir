@@ -7,3 +7,33 @@
     /* stroke-dashoffset: 200; */
     fill:transparent;
 }
+
+#lines polyline {
+    stroke-width: 4px;
+    stroke: #fff2e0;
+    stroke-dashoffset:6400;
+    stroke-dasharray: 50,200,50,200,50,200;
+    /* stroke-dasharray: 8,960,24,960,16,400; */
+    animation: draw 50s infinite;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+}
+
+/* #lines #line1{animation-delay: 2.5;}
+#lines #line2{animation-delay: 2.1;}
+#lines #line3{animation-delay: 3.5;}
+#lines #line4{animation-delay: 4;} */
+/* 
+#lines #line1{animation-delay: .5;}
+#lines #line2{animation-delay: .1;}
+#lines #line3{animation-delay: 1.5;}
+#lines #line4{animation-delay: 2;} */
+
+@keyframes draw {
+    0% {
+    }
+    100% {
+      stroke-dashoffset: 0;
+      stroke-opacity: 1;
+    }
+  }

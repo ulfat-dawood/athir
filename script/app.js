@@ -1,4 +1,4 @@
 window.addEventListener('load', ()=>{
-    banner();
+    bannerLogo();
     setTimeout(_=> window.location.hash = '#banner2',10000)
 })
