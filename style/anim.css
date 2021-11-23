@@ -37,3 +37,13 @@
       stroke-opacity: 1;
     }
   }
+
+
+/*///////////// BAZ  ////////////*/
+#baz #add{
+  animation: left-right 2s linear 0s
+  infinite alternate ;
+}
+@keyframes left-right {
+to{transform: translateY(15px);}
+}
