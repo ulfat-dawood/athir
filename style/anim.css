@@ -41,9 +41,20 @@
 
 /*///////////// BAZ  ////////////*/
 #baz #add{
-  animation: left-right 2s linear 0s
+  animation: up-down 3s ease-in-out 0s
   infinite alternate ;
 }
+#baz #logo{
+  animation: up-down 3s linear 0s
+  infinite alternate-reverse ;
+}
+#baz #check{
+  animation: left-right 3s linear 0s
+  infinite alternate-reverse ;
+}
+@keyframes up-down {
+to{transform: translateY(10px);}
+}
 @keyframes left-right {
-to{transform: translateY(15px);}
+to{transform: translateX(-10px);}
 }
