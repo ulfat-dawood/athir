@@ -9,19 +9,10 @@ $(".carousel").owlCarousel({
   autoplayTimeout: 6000,
   autoplaySpeed: 6000,
   rtl:true,
-//   autoplayHoverPause: true,
-  
-//   responsive: {
-//     0: {
-//       items: 1
-//     },
-//     600: {
-//       items: 3
-//     },
-//     1000: {
-//       items: 3
-//     }
-//   }
+  dots:false,
+  nav: false
+
+
 });
 
 
@@ -30,13 +21,41 @@ $(".carousel").owlCarousel({
 // OUR SERVICES 
 
 $(".srv-carousel").owlCarousel({
-  center: true,
-  items: 3,
+
+  margin: 80, 
   loop: true,
-  margin: 90,
-  rtl:true,
-//   autoplayHoverPause: true,
+  autoplay: true, 
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true, 
   
+  nav: true,
+navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+
+  responsive: {
+    0:{
+      items: 1,
+    },
+
+    
+    600:{
+      items: 2,
+    },
+
+    1000:{
+      items: 3,
+
+    },
+
+
+  }
+// center: true,
+// items: 3,
+// loop: true,
+// margin: 90,
+// rtl:true,
+
+
+//   autoplayHoverPause: true,
 //   responsive: {
 //     0: {
 //       items: 1
