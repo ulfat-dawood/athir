@@ -25,7 +25,7 @@ $(".srv-carousel").owlCarousel({
   margin: 80, 
   loop: true,
   autoplay: true, 
-  autoplayTimeout: 3000,
+  autoplayTimeout: 2500,
   autoplayHoverPause: true, 
   
   nav: true,
