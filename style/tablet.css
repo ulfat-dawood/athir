@@ -1,0 +1,13 @@
+@media (max-width: 880px){
+    #header nav,
+    #header .lang{
+        display: none;
+    }
+    #header #menu-icon{
+        display: block;
+    }
+
+
+
+
+}

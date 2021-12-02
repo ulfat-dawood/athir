@@ -1,9 +1,10 @@
 @import "./normalize.css"; /*always overriden*/
 @import "./main.css";
-@import "./banner.css" ;
+/* @import "./banner.css" ; */
 @import "./arabic.css" ;
 
-@import "./anim.css"
+@import "./anim.css";
+@import "./tablet.css"
 /* never overriden  */
 
 
