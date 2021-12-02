@@ -1,4 +1,17 @@
+@media (max-width: 1100px){
+    #banner .main .title{
+        font-size: 72px;
+        font-size: 42px;
+    }
+    #banner .main span{
+        font-size: 44px;
+        font-size: 24px;
+    }
+
+}
+
 @media (max-width: 880px){
+/* ////////// HEADER ////////// */
     #header nav,
     #header .lang{
         display: none;
@@ -7,7 +20,18 @@
         display: block;
     }
 
+/* ////////// BANNER ////////// */
+
+    #banner .container{
+        flex-direction: column;
+    }
 
 
+/* ////////// BANNER-2 ////////// */
+
+    #banner2 .banner2-container{
+        flex-direction: column-reverse;
+
+    }
 
 }

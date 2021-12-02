@@ -27,15 +27,19 @@ const switchLang = (lang)=>{
         body.style.fontFamily = "'Noto Sans Arabic', sans-serif"
         langObj = language.ar; 
         //hide button: 
-        document.querySelector("[data-reload='ar']").style.display="none";
-        document.querySelector("[data-reload='en']").style.display="flex";
+        document.querySelectorAll("[data-reload='ar']").forEach((item)=>item.style.display="none")
+        document.querySelectorAll("[data-reload='en']").forEach((item)=>item.style.display="flex")
+        // document.querySelectorAll("[data-reload='ar']").style.display="none";
+        // document.querySelectorAll("[data-reload='en']").style.display="flex";
     }else{
         html.dir = 'ltr'; html.lang = 'en';
         body.style.fontFamily = "'Montserrat', sans-serif";
         langObj = language.en; 
         //hide button: 
-        document.querySelector("[data-reload='en']").style.display="none";
-        document.querySelector("[data-reload='ar']").style.display="flex";
+        document.querySelectorAll("[data-reload='en']").forEach((item)=>item.style.display="none")
+        document.querySelectorAll("[data-reload='ar']").forEach((item)=>item.style.display="flex")
+        // document.querySelectorAll("[data-reload='en']").style.display="none";
+        // document.querySelectorAll("[data-reload='ar']").style.display="flex";
     }
     document.querySelectorAll('[data-cnt]').forEach(item =>{
         var content = item.dataset.cnt; 
