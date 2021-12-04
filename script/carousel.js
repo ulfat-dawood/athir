@@ -27,6 +27,7 @@ $(".srv-carousel").owlCarousel({
   autoplay: true, 
   autoplayTimeout: 2500,
   autoplayHoverPause: true, 
+  rtl:true,
   
   nav: true,
 navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],

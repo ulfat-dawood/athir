@@ -1,37 +1,162 @@
 @media (max-width: 1100px){
-    #banner .main .title{
-        font-size: 72px;
-        font-size: 42px;
-    }
-    #banner .main span{
-        font-size: 44px;
-        font-size: 24px;
-    }
+/* ////////// BANNER ////////// */
+#banner .main .title{
+    font-size: 72px;
+    font-size: 54px;
+}
+#banner .main span{
+    font-size: 44px;
+    font-size: 34px;
+}
+html[dir="rtl"] #banner .main .title{
+    font-size: 54px;
+    font-size: 40px;
+
+}
+html[dir="rtl"] #banner .main .bwbtk{
+    font-size: 88px;
+    font-size: 68px;
+}
+#banner .bg-container{
+    height: 150px;
+    width: 150px;
+}
+#banner .landing-bg{
+    right:-320px; 
+}
+/* ////////// ABOUT ////////// */
+
+#about .about-cards p{
+    width: 100%; 
+}
 
 }
 
+
+
+
+
 @media (max-width: 880px){
 /* ////////// HEADER ////////// */
-    #header nav,
-    #header .lang{
-        display: none;
-    }
-    #header #menu-icon{
-        display: block;
-    }
+#header nav,
+#header .lang{
+    display: none;
+}
+#header #menu-icon{
+    display: block;
+}
 
 /* ////////// BANNER ////////// */
+#banner .main .title{
+    font-size: 72px;
+    font-size: 42px;
+}
+#banner .main span{
+    font-size: 44px;
+    font-size: 24px;
+}
+html[dir="rtl"] #banner .main .title{
+    font-size: 40px;
+    font-size: 35px;
 
-    #banner .container{
-        flex-direction: column;
-    }
+}
+html[dir="rtl"] #banner .main .bwbtk{
+    font-size: 68px;
+    font-size: 58px;
+}
 
-
+#banner .container{
+    height: 470px;
+    height: 400px;
+}
+#banner .bg-container{
+    margin-right: 0px;
+}
 /* ////////// BANNER-2 ////////// */
+#banner2 .banner2-container{
+    flex-direction: column-reverse;
+}
 
-    #banner2 .banner2-container{
-        flex-direction: column-reverse;
+/* ////////// US ////////// */
 
-    }
+#us .us-cards{
+    flex-direction: column;
+}
+#us .us-card{
+    background-position-x: 105%;
+}
+
+html[dir="rtl"] #us .us-card{
+    background-position-x: -5%;
+}
+#us .us-values li{
+    background-size: contain;
+}
+
+#achievements .achv-cards{
+    flex-wrap: wrap;
+}
+
+}
+
+
+
+
+
+@media (max-width: 640px){
+/* ////////// NORMALIZE ////////// */
+.container{
+	width:87%; 
+
+}
+/* ////////// BANNER ////////// */
+#banner .container{
+    justify-content: space-between;
+}
+/* ////////// BANNER-2 ////////// */
+#banner2 .img-wrapper{
+    height: 300px;
+}
+#banner2 .svg-wrapper{
+ width: 110%;
+ left:35%;
+ transform: translateY(50%) translateX(0%);
+}
+
+
+}
+
+
+
+
+@media (max-width: 522px){
+#banner .container{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#banner .main{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+#banner .left-gradient{
+    top:0;
+    left: 0px;
+    width:100%; 
+    height: 100px;
+    background-image: linear-gradient(to bottom, #FFF9F1,#FFF9F100);
+
+}
+}
+
+
+
+
+@media (max-width: 500px){
+/* ////////// BANNER-2 ////////// */
+#banner2 .img-wrapper{
+    height: 200px;
+}
 
 }
