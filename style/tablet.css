@@ -1,3 +1,8 @@
+@media (min-width: 1100px){
+#banner .left-gradient{
+    width:80%; 
+}
+}
 @media (max-width: 1100px){
 /* ////////// BANNER ////////// */
 #banner .main .title{
