@@ -52,6 +52,15 @@ const language = {
         achv_transactions_no: "5M",
         //Partners
         prt_title:"partners", 
+        //Contact
+        ctc_title1: "Contact",
+        ctc_title2: "Us",
+        ctc_name:"Name",
+        ctc_mobile:"Mobile No.",
+        ctc_email:"Email", 
+        ctc_msg: "Message",
+        ctc_send: "SEND",
+        ctc_address: "E8, Emaar, Alfaiha District, Jeddah, Saudi Arabia  9200 202 264", 
 
     },
     ar: {
@@ -107,5 +116,14 @@ const language = {
         achv_transactions_no: "5M",
         //Partners
         prt_title:"شركاء النجاح", 
+        // CONTACT 
+        ctc_title1: "تـــواصــل",
+        ctc_title2: "مـعنـا",
+        ctc_name:"الإسم",
+        ctc_mobile:"الجوال",
+        ctc_email:"البريد الالكتروني", 
+        ctc_msg: "الرسالة",
+        ctc_send: "إرسال",
+        ctc_address:"مبنى 8، اعمار، شارع الفيحاء ،جده ،المملكة العربية السعودية . 9200 202 264 "
     }
 }

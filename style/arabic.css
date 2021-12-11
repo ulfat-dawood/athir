@@ -83,3 +83,25 @@ html[dir="rtl"] #us .us-values li{
 html[dir="rtl"] .services-card .face.face1 .content p{
     line-height: 1.6;
 }
+
+/* ////////// CONTACT ////////// */
+
+html[dir="rtl"] .app-title:after {
+    width: 45px;
+    right:0;
+}
+html[dir="rtl"]    .screen-header-left {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+html[dir="rtl"]  .app-form-button{
+    font-family: 'Noto Sans Arabic', sans-serif
+
+}
+
+html[dir="rtl"]  .app-form-control::placeholder{
+    font-family: 'Noto Sans Arabic', sans-serif;
+    
+
+}

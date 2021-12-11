@@ -1,0 +1,153 @@
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 287.75 227.46">
+                            <defs>
+                                <style>
+                                    .dashy-1 {
+                                        fill: #fff;
+                                    }
+
+                                    .dashy-2 {
+                                        fill: #ef5a3b;
+                                    }
+
+                                    .dashy-3 {
+                                        fill: #efbd31;
+                                    }
+
+                                    .dashy-4 {
+                                        fill: #37aa54;
+                                    }
+
+                                    .dashy-5 {
+                                        fill: #e59020;
+                                    }
+
+                                    .dashy-6 {
+                                        fill: #0d3951;
+                                    }
+
+                                    .dashy-7 {
+                                        fill: #2681c6;
+                                    }
+
+                                    .dashy-8 {
+                                        fill: #2c6b6b;
+                                    }
+
+                                    .dashy-9 {
+                                        fill: #dbdbdb;
+                                    }
+
+                                    .dashy-10 {
+                                        fill: #f9f9f9;
+                                    }
+
+                                    .dashy-11 {
+                                        fill: #2c8454;
+                                    }
+
+                                    .dashy-12 {
+                                        fill: none;
+                                        stroke: #e59020;
+                                        stroke-miterlimit: 10;
+                                    }
+
+                                    .dashy-13 {
+                                        fill: #a3b8c4;
+                                    }
+
+                                    .dashy-14 {
+                                        fill: #eee;
+                                    }
+                                </style>
+                            </defs>
+                            <g id="window">
+                                <rect id="window-bg" class="dashy-1" x="13.3" y="9.47" width="262.34" height="217.99"
+                                    rx="12.44" />
+                                <circle id="indicator-1" class="dashy-2" cx="29.16" cy="21.48" r="3.34" />
+                                <circle id="indicator-2" class="dashy-3" cx="40.97" cy="21.48" r="3.34" />
+                                <circle id="indcator-3" class="dashy-4" cx="52.77" cy="21.48" r="3.34" />
+                            </g>
+                            <g id="logo">
+                                <rect class="dashy-5" x="255.2" y="11.24" width="6.2" height="13.7" rx="1.74"
+                                    transform="translate(62.87 187.94) rotate(-45)" />
+                                <rect class="dashy-5" x="249.9" y="16.54" width="6.2" height="13.7" rx="1.74"
+                                    transform="translate(57.56 185.75) rotate(-45)" />
+                                <rect class="dashy-6" x="260.51" y="0.62" width="6.2" height="13.7" rx="1.74"
+                                    transform="translate(82.49 -184.21) rotate(45)" />
+                                <rect class="dashy-6" x="265.82" y="5.93" width="6.2" height="13.7" rx="1.74"
+                                    transform="translate(87.8 -186.41) rotate(45)" />
+                                <rect class="dashy-7" x="265.82" y="27.16" width="6.2" height="13.7" rx="1.74"
+                                    transform="translate(102.81 -180.19) rotate(45)" />
+                                <rect class="dashy-7" x="260.51" y="21.85" width="6.2" height="13.7" rx="1.74"
+                                    transform="translate(97.5 -177.99) rotate(45)" />
+                                <rect class="dashy-8" x="271.12" y="16.54" width="6.2" height="13.7" rx="1.74"
+                                    transform="translate(63.78 200.76) rotate(-45)" />
+                                <rect class="dashy-8" x="276.43" y="11.24" width="6.2" height="13.7" rx="1.74"
+                                    transform="translate(69.08 202.95) rotate(-45)" />
+                            </g>
+                            <g id="list">
+                                <rect id="li-1" class="li dashy-9" x="108.4" y="114.73" width="8.47" height="103.9" rx="4.03"
+                                    transform="translate(279.32 54.04) rotate(90)" />
+                                <rect id="li-2" class="li dashy-9" x="92.49" y="144.22" width="8.47" height="72.07" rx="3.35"
+                                    transform="translate(276.97 83.53) rotate(90)" />
+                                <rect id="li-3" class="li dashy-9" x="102.05" y="148.22" width="8.47" height="91.19" rx="3.77"
+                                    transform="translate(300.1 87.54) rotate(90)" />
+                                <rect id="li-4" class="li dashy-9" x="89.99" y="173.85" width="8.47" height="67.09" rx="3.24"
+                                    transform="translate(301.62 113.16) rotate(90)" />
+                                <rect id="dot-1" class="dot dashy-8" x="46.37" y="162.44" width="8.47" height="8.47" rx="1.15"
+                                    transform="translate(217.28 116.07) rotate(90)" />
+                                <rect id="dot-2" class="dot dashy-8" x="46.37" y="176.01" width="8.47" height="8.47" rx="1.15"
+                                    transform="translate(230.86 129.64) rotate(90)" />
+                                <rect id="dot-3" class="dot dashy-8" x="46.37" y="189.59" width="8.47" height="8.47" rx="1.15"
+                                    transform="translate(244.43 143.22) rotate(90)" />
+                                <rect id="dot-1-2" data-name="dot-1" class="dot dashy-8" x="46.37" y="203.16" width="8.47"
+                                    height="8.47" rx="1.15" transform="translate(258 156.79) rotate(90)" />
+                            </g>
+                            <g id="add">
+                                <rect class="dashy-7" y="149.95" width="26.6" height="26.6" rx="6.69"
+                                    transform="translate(176.55 149.95) rotate(90)" />
+                                <rect class="dashy-10" x="4.56" y="161.63" width="17.5" height="3.24" rx="1.62" />
+                                <rect class="dashy-10" x="4.56" y="161.63" width="17.5" height="3.24" rx="1.62"
+                                    transform="translate(176.56 149.94) rotate(90)" />
+                            </g>
+                            <g id="check">
+                                <path class="dashy-11"
+                                    d="M287.75,198.13a13.79,13.79,0,1,1-4-9.75l.14.14a13.77,13.77,0,0,1,3.9,9.61Z" />
+                                <path class="dashy-1"
+                                    d="M286.79,193.07a3.27,3.27,0,0,1-.3.35l-10.64,10.64a2.91,2.91,0,0,1-4.11,0l-4.83-4.84a2.9,2.9,0,0,1,4.1-4.1l2.79,2.79,8.59-8.59a2.94,2.94,0,0,1,1.46-.8A13.56,13.56,0,0,1,286.79,193.07Z" />
+                            </g>
+                            <g id="chart">
+                                <rect id="char-bg" class="dashy-9" x="143.44" y="44.28" width="101.08" height="96.2"
+                                    rx="11.74" />
+                                <circle class="dashy-5" cx="165.13" cy="70.79" r="1.68" />
+                                <circle class="dashy-5" cx="179.49" cy="85.59" r="1.68" />
+                                <circle class="dashy-5" cx="192.24" cy="72.14" r="1.68" />
+                                <circle class="dashy-5" cx="204.67" cy="85.24" r="1.68" />
+                                <rect id="bar-5" class="dashy-1 bar" x="161.69" y="78.79" width="8.47" height="46.62" rx="2.7" />
+                                <rect id="bar-4" class="dashy-1 bar" x="175.26" y="93.08" width="8.47" height="32.33" rx="2.25" />
+                                <rect id="bar-3" class="dashy-1 bar" x="188.83" y="84.5" width="8.47" height="40.91" rx="2.53" />
+                                <rect id="bar-2" class="dashy-1 bar" x="202.4" y="95.31" width="8.47" height="30.1" rx="2.17" />
+                                <rect id="bar-1" class="dashy-1 bar" x="215.97" y="72.91" width="8.47" height="52.5" rx="2.86" />
+                                <polyline id="line" class="dashy-12"
+                                    points="164.86 70.69 179.49 85.59 192.19 72.02 204.7 85.59 222.07 57.67" />
+                                <circle class="dashy-5" cx="222.07" cy="57.67" r="1.68" />
+                            </g>
+                            <g id="pie">
+                                <rect id="pie-bg" class="dashy-13" x="49.44" y="44.28" width="78.33" height="96.2"
+                                    rx="10.33" />
+                                <circle id="pie-back" class="dashy-9" cx="88.17" cy="93.08" r="30.45" />
+                                <path id="pie-front" class="dashy-6"
+                                    d="M88.17,93.08l16.51,25.58a30.45,30.45,0,1,1,13.94-25.58Z" />
+                            </g>
+                            <g id="box">
+                                <rect id="box-bg" class="dashy-14" x="185.98" y="160.89" width="55.79" height="54.48"
+                                    rx="6.56" />
+                                <rect id="rec-1" class="boxy dashy-9" x="208.75" y="155.55" width="10.25" height="39.25" rx="2.72"
+                                    transform="translate(389.05 -38.7) rotate(90)" />
+                                <rect id="rec-2" class="boxy dashy-10" x="208.75" y="171.53" width="10.25" height="39.25" rx="2.72"
+                                    transform="translate(405.03 -22.72) rotate(90)" />
+                                <rect id="rec-3" class="boxy dashy-10" x="208.75" y="184.94" width="10.25" height="39.25" rx="2.72"
+                                    transform="translate(418.44 -9.31) rotate(90)" />
+                            </g>
+                        </svg>

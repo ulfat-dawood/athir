@@ -29,8 +29,12 @@ const switchLang = (lang)=>{
         //hide button: 
         document.querySelectorAll("[data-reload='ar']").forEach((item)=>item.style.display="none")
         document.querySelectorAll("[data-reload='en']").forEach((item)=>item.style.display="flex")
-        // document.querySelectorAll("[data-reload='ar']").style.display="none";
-        // document.querySelectorAll("[data-reload='en']").style.display="flex";
+
+        // PLACEHOLDERS 
+        document.querySelector('#jj-name').placeholder = "الاسم";
+        document.querySelector('#jj-email').placeholder = "البريد الالكتروني";
+        document.querySelector('#jj-no').placeholder = "الجوال";
+        document.querySelector('#jj-msg').placeholder = "الرسالة";
     }else{
         html.dir = 'ltr'; html.lang = 'en';
         body.style.fontFamily = "'Montserrat', sans-serif";
@@ -38,8 +42,12 @@ const switchLang = (lang)=>{
         //hide button: 
         document.querySelectorAll("[data-reload='en']").forEach((item)=>item.style.display="none")
         document.querySelectorAll("[data-reload='ar']").forEach((item)=>item.style.display="flex")
-        // document.querySelectorAll("[data-reload='en']").style.display="none";
-        // document.querySelectorAll("[data-reload='ar']").style.display="flex";
+
+        // PLACEHOLDERS 
+        document.querySelector('#jj-name').placeholder = "NAME";
+        document.querySelector('#jj-email').placeholder = "EMAIL";
+        document.querySelector('#jj-no').placeholder = "CONTACT NO";
+        document.querySelector('#jj-msg').placeholder = "MESSAGE";
     }
     document.querySelectorAll('[data-cnt]').forEach(item =>{
         var content = item.dataset.cnt; 

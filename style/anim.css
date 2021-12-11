@@ -11,12 +11,13 @@
 #lines polyline {
     stroke-width: 4px;
     stroke: #fff2e0;
+    stroke: linear-gradient(red, green); 
     stroke-dashoffset:6400;
     stroke-dasharray: 50,200,50,200,50,200;
     /* stroke-dasharray: 8,960,24,960,16,400; */
     animation: draw 50s infinite;
   animation-timing-function: linear;
-  animation-delay: 5s;
+  /* animation-delay: 5s; */
 }
 
 /* #lines #line1{animation-delay: 2.5;}
