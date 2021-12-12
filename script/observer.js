@@ -7,13 +7,15 @@ let options = {
 
 let callback = (entries, observer) => {
     entries.forEach(entry => {
-        if(entry.isIntersecting ){
-          
-            console.log(entry.target.id && entry.target.id == "baz");
+        if(entry.isIntersecting && entry.target.id == "baz"){          
             dashboardAnim();
             observer.unobserve(entry.target); 
+        }
 
-          
+        if(entry.isIntersecting && entry.target.id == "achievements"){          
+            console.log('done');
+            incrementNumbers();
+            observer.unobserve(entry.target); 
         }
 
     });

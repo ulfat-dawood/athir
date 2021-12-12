@@ -659,7 +659,8 @@
     margin-top: -40px;
 }
 
-#achievements .achv-card h6{
+#achievements .achv-card h6,
+#achievements .achv-card .number{
     font-size: 70px;
 }
 
