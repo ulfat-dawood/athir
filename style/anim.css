@@ -59,3 +59,12 @@ to{transform: translateY(10px);}
 @keyframes left-right {
 to{transform: translateX(-10px);}
 }
+
+/* reset baz opacity to 0  */
+
+#baz #chart circle,
+#baz #chart .bar,
+#baz #chart polyline
+{
+  /* opacity:0; */
+}

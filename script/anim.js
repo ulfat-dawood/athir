@@ -1,9 +1,9 @@
 
 
-document.querySelector('#header').addEventListener('click',()=>{
+// document.querySelector('#header').addEventListener('click',()=>{
    
-    dashboardAnim(); 
-})
+//     dashboardAnim(); 
+// })
 
 const bannerLogo = ()=>{
 
