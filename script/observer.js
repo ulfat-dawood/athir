@@ -1,7 +1,7 @@
 let options = {
     root: document.querySelector('#scrollArea'),
     rootMargin: '0px',
-    threshold: 1.0
+    threshold: .6
 }
 // 
 
@@ -13,7 +13,6 @@ let callback = (entries, observer) => {
         }
 
         if(entry.isIntersecting && entry.target.id == "achievements"){          
-            console.log('done');
             incrementNumbers();
             observer.unobserve(entry.target); 
         }
