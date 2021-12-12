@@ -83,6 +83,10 @@ html[dir="rtl"] #us .us-values li{
 html[dir="rtl"] .services-card .face.face1 .content p{
     line-height: 1.6;
 }
+/* ////////// ACHIEVEMENTS ////////// */
+html[dir="rtl"] #achievements .number{
+    direction: ltr;
+}
 
 /* ////////// CONTACT ////////// */
 
