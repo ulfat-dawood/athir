@@ -11,7 +11,6 @@
 #lines polyline {
     stroke-width: 4px;
     stroke: #fff2e0;
-    stroke: linear-gradient(red, green); 
     stroke-dashoffset:6400;
     stroke-dasharray: 50,200,50,200,50,200;
     /* stroke-dasharray: 8,960,24,960,16,400; */

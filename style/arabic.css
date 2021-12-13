@@ -3,7 +3,13 @@ html[dir="rtl"] * {
     line-height: 1.1;
 }
 
+/* ////////// NAVBAR ////////// */
 
+html[dir="rtl"] #header .logo{
+
+    background-position-x: 60px;
+
+}
 
 /* ////////// BANNER-1 ////////// */
 

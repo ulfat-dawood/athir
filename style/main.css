@@ -51,10 +51,16 @@
 #header #menu-icon{
     display: none;
 }
-
-#header .logo img{
+#header .logo{
+    background: url(../asset/svg/logo.svg);
+    background-repeat: no-repeat;
+    /* background-color: #dbdbdb; */
+    background-size: contain;
+    background-position-x: -40px;
     width: 150px;
+    height: 40px;
 }
+
 #header nav{
     display: flex;
 }
