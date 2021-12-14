@@ -56,9 +56,9 @@
     background-repeat: no-repeat;
     /* background-color: #dbdbdb; */
     background-size: contain;
-    background-position-x: -40px;
+    background-position-x: -45px;
     width: 150px;
-    height: 40px;
+    height: 50px;
 }
 
 #header nav{
@@ -86,9 +86,13 @@
     align-items: center;
     cursor: pointer;
 }
+#header .lang svg{
+    height: 17px;    
+
+}
 #header [data-reload] span{
     margin: 0 .2rem;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 /* ////////// BANNER ////////// */

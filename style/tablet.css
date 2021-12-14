@@ -82,6 +82,12 @@ html[dir="rtl"] #banner .main .bwbtk{
     flex-direction: column-reverse;
 }
 
+html[dir="rtl"] #banner2 .banner-right{
+    align-items: flex-end;
+    text-align: right;
+
+}
+
 /* ////////// US ////////// */
 
 #us .us-cards{
