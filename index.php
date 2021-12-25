@@ -4,6 +4,8 @@
 <head>
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="./asset/svg/favicon.svg">
+    <!-- DESCRIPTION  -->
+    <meta name=”description” content=”Integrated digital solutions empowering enterprises to transform their businesses into a new digital era.”>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +19,7 @@
         rel="stylesheet">
     <!-- STYLES -->
     <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+    <title>Athir</title>
     <!-- FEATHER ICONS  -->
     <script src="https://unpkg.com/feather-icons"></script>
     <!-- Owl Carousel  -->
