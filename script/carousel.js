@@ -10,8 +10,60 @@ $(".carousel").owlCarousel({
   autoplaySpeed: 6000,
   rtl:true,
   dots:false,
-  nav: false
+  nav: false, 
 
+  responsive: {
+    0:{
+      items: 1,
+      center: true,
+      autoWidth:false,
+      autoplayTimeout: 2000,
+      autoplaySpeed: false,
+      margin: 10,
+      autoplayHoverPause: true, 
+
+    },
+
+    
+    600:{
+      items: 2,
+      autoWidth:false,
+      autoplayTimeout: 2000,
+      autoplaySpeed: false,
+      margin: 0,
+      autoplayHoverPause: true, 
+
+    // 800:{
+    //   items: 2,
+    //   autoWidth:false,
+    //   autoplayTimeout: 2000,
+    //   autoplaySpeed: false,
+    //   margin: 0,
+    //   autoplayHoverPause: true, 
+
+
+    },
+    800:{
+      center: true,
+      autoWidth:true,
+      items: 3,
+      loop: true,
+      margin: 90,
+      autoplay: true,
+      slideTransition: "linear",
+      autoplayTimeout: 6000,
+      autoplaySpeed: 6000,
+      rtl:true,
+      dots:false,
+      nav: false,
+
+
+    },
+
+
+
+
+  }
 
 });
 

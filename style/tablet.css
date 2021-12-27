@@ -112,7 +112,32 @@ html[dir="rtl"] #us .us-card{
 
 
 
+@media (max-width: 800px){
+/* ////////// PARTNERS ////////// */
 
+#partners .img-container{
+    width: 200px;  
+}
+
+}
+
+
+@media (max-width: 600px){
+/* ////////// PARTNERS ////////// */
+
+#partners .img-container{
+    margin: auto;  
+}
+
+}
+
+
+    
+#partners .img-container{
+    width: 200px;  
+}
+    
+}
 
 @media (max-width: 640px){
 /* ////////// NORMALIZE ////////// */

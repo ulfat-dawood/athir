@@ -1101,7 +1101,7 @@
 
         <h2 data-cnt="prt_title" class="title tx-lg"></h2>
 
-        <ul class="carousel owl-carousel">
+        <ul class="carousel-container carousel owl-carousel">
             <li class="img-container">
                 <img src="./asset/img/partners/jed-seha-logo.png" alt="">
             </li>
