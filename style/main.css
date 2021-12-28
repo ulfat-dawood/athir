@@ -1,3 +1,31 @@
+/* ////////// SPLASH ////////// */
+#splash{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(12,45,65,1) 40%, rgba(15,57,81,1) 100%); ;
+    z-index: 200;
+    display: flex; align-items: center; justify-content: center;
+}
+#splash .logo-container{
+    --logo-size: 150px;
+    height: var(--logo-size);
+    width: var(--logo-size);
+    /* border: 1px solid #fff;  */
+    background-image: url(../asset/svg/splash-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#splash .logo-container.logo-anim{
+    animation: fadeInOut 1s linear 0s infinite alternate ;
+    
+}
+@keyframes fadeInOut{
+    from{opacity: 1;}
+    to{opacity:0}
+}
 /* ////////// SIDEBAR ////////// */
 #sidebar.show{
     top:0; 

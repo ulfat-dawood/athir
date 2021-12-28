@@ -1,8 +1,3 @@
-window.addEventListener('load', ()=>{
-    bannerLogo();
-    // setTimeout(_=> window.location.hash = '#banner2',10000)
-})
-
 
 // COUNTER 
 
@@ -34,4 +29,6 @@ const incrementNumbers= ()=>{
     animateValue(users,0, 4, 2500); //k
    animateValue(trans,0, 5, 2500); //m
 }
+
+
 

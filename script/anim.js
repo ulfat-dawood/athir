@@ -1,9 +1,6 @@
 
 
-// document.querySelector('#header').addEventListener('click',()=>{
-   
-//     dashboardAnim(); 
-// })
+
 
 const bannerLogo = ()=>{
 
@@ -63,3 +60,38 @@ const dashboardAnim = ()=>{
     // .from("#baz #pie #pie-front", 1, {scale:0, transformOrigin : "center"}, "<")
 }
 
+
+
+//SPLASH SCREEN
+document.querySelector('#splash').addEventListener('click',()=>{
+   
+    dashboardAnim(); 
+})
+
+window.addEventListener('load', ()=>{
+    bannerLogo();
+    // setTimeout(_=> window.location.hash = '#banner2',10000)
+})
+
+const splashAnim = ()=>{
+let splashTimeline= new TimelineMax();
+
+splashTimeline
+// Bars 
+.from('#baz .bar', {scaleY:0, transformOrigin : "center bottom", stagger: .2})
+.fromTo('#baz #chart #line' ,2,{ strokeDasharray: 90, strokeDashoffset:90}, {strokeDashoffset:0 ,duration:2, ease: "expo.out"})
+.fromTo("#baz #chart circle", {scale: 0}, {scale:1 ,duration:2, stagger: .2} , "<" )
+
+//bullet points:
+.fromTo("#baz #list .dot", {y:10,opacity:0}, {y:0, opacity:1,duration:1, stagger: .3},1)
+.from("#baz #list .li" ,  {scaleY:0, transformOrigin : "center bottom", stagger: .2},"<")
+.fromTo("#baz #box .boxy" , {y:-5, opacity:0}, {y:10, opacity:1, stagger: .2},"<")
+
+}
+  
+  //1-continous logo amination
+  //////ON-LOADING://////
+  //2-stop the logo aniamtion
+  //3-logo bg 2 white + bg 2 whit + logo zoom in
+  //4-splash opacity 0
+  //5-banner animation

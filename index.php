@@ -32,6 +32,11 @@
 </head>
 
 <body>
+    <!-- splash screen -->
+    <div id="splash">
+        <div class="logo-container logo-anim">
+        </div>
+    </div>
     <!-- sidebar is displayed only on mobile screen  -->
     <div id="sidebar">
             <nav>
