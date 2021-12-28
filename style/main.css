@@ -309,6 +309,7 @@
     background: #FFF9F1;
     padding-top:100px ;
     padding-bottom:100px ;
+    overflow: hidden;
 }
 #us .us-cards{
     display: flex;
