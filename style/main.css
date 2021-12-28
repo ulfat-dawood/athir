@@ -264,6 +264,7 @@
     width: fit-content;
     border-radius: 3px;
     --arrowSize: 8px; 
+    cursor: pointer;
 
 }
 

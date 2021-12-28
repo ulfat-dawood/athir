@@ -883,11 +883,11 @@
             </div>
             <div class="banner-right ">
                 <h5 data-cnt="bnr_subtitle" class="tx-title subtitle wow fadeInRight"></h5>
-                <div class="more wow fadeInUpBig">
+                <a href="#about" class="more wow fadeInUpBig">
+                    
                     <div data-cnt="more"> </div>
                     <div class="arrow">	<i class="icofont-rounded-down"></i></div>
-                    <!-- <div class="arrows"></div> -->
-                </div>
+                </a>
             </div>
 
         </div>
